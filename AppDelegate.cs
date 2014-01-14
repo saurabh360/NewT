@@ -29,6 +29,7 @@ namespace iOSSApp
 			viewController = new iOSSAppViewController ();
 			window.RootViewController = viewController;
 			window.MakeKeyAndVisible ();
+			window.AccessibilityActivate ();
 			
 			return true;
 		}
